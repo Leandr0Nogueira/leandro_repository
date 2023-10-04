@@ -1,0 +1,4 @@
+br\com\leandro\screenmatch\ScreenmatchApplication.class
+br\com\leandro\screenmatch\controller\FilmeController.class
+br\com\leandro\screenmatch\domain\filme\Filme.class
+br\com\leandro\screenmatch\domain\filme\DadosFilme.class
