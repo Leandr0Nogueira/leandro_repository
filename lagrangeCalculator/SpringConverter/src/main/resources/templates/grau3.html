@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title th:text="#{pageTitle}">Titulo</title>
+    <style>
+        .botao {
+            display: inline-block;
+            padding: 5px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aproximação por Polinômios de Lagrange (Grau 3)</h1>
+    <h3>Resultado: <span th:text="${resultado}"></span></h3>
+    <a class="botao" th:href="@{/indexG3}">Voltar</a>
+</body>
+
+</html>
