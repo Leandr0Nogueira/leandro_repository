@@ -1,4 +1,4 @@
-# Personal_Projects
+# Repositório de Leandro Nogueira
 Bem-vindo ao meu repositório pessoal no GitHub!
 
 Este é o meu espaço virtual onde eu compartilho e armazeno todos os meus projetos pessoais e acadêmicos. Aqui você encontrará uma variedade de projetos, desde pequenos scripts e aplicativos até projetos mais complexos desenvolvidos durante a minha jornada na faculdade e nos meus momentos de criação pessoal.
