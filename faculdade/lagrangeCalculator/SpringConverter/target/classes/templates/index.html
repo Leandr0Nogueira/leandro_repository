@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagrange</title>
+    <style>
+        .opt {
+            display: flex;
+            justify-content: center; /* Centralizar horizontalmente */
+            align-items: center; /* Centralizar verticalmente */
+            height: 0; /* Define a altura da área de visualização */
+            margin: 20px;
+        }
+        .opt1 {
+            display: flex;
+            justify-content: center; /* Centralizar horizontalmente */
+            align-items: center; /* Centralizar verticalmente */
+            margin: 40px;
+        }
+
+        body {
+            background-color: #adadad; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .img_lag {
+            display: block;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: 350px;
+            margin: 60px;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 35px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="opt1">Escolha o grau de precisão para a aproximação:</h2><br>
+    <div class="opt">
+        <a class="botao" th:href="@{/indexG1}">Grau 1</a><br><br>
+        <a class="botao" th:href="@{/indexG2}">Grau 2</a><br><br>
+        <a class="botao" th:href="@{/indexG3}">Grau 3</a>
+    </div>
+    <a class="img_lag">
+        <img src="https://www.thoughtco.com/thmb/FYpn2y-U5BOYj6pneZMmM9Bw_iU=/3094x2065/filters:fill(auto,1)/JosephLouisLagrange-c21f7a64c22f4ee7b357988bb6f826b4.jpg">
+    </a>
+
+</body>
+</html>
