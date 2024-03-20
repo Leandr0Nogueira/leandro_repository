@@ -11,3 +11,4 @@ O que você pode esperar encontrar aqui:
 Fique à vontade para explorar os projetos, fazer fork, abrir issues e enviar pull requests. Se você tiver alguma pergunta, sugestão ou apenas quiser trocar ideias, sinta-se à vontade para entrar em contato comigo. Espero que você encontre algo interessante aqui e que esses projetos possam ser úteis para você de alguma forma.
 
 Aproveite sua visita!
+
