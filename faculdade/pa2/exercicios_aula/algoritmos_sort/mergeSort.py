@@ -1,3 +1,4 @@
+#Função mecanismo básico
 def merge(l1, l2):
     i = 0
     j = 0
@@ -20,6 +21,8 @@ def merge(l1, l2):
     
     return lista
 
+#O(n log n)           n * log base2  n
+#       ²
 def mergeSort(lista):
     if len(lista) > 1:
         meio = int(len(lista) / 2)
