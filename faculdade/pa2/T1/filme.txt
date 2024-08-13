@@ -1,0 +1,5 @@
+Filme: Interestelar | Ano: 2015 | Genero: Ficcao Cientifica | Plataforma: Amazon
+Filme: Peppa Pig | Ano: 2000 | Genero: Infantil | Plataforma: Netflix
+Filme: Menu | Ano: 2018 | Genero: Acao, Terror | Plataforma: HBO Max
+Filme: Velozes e Furiosos | Ano: 2009 | Genero: Acao, Aventura | Plataforma: HBO Max
+Filme: A Entidade | Ano: 2020 | Genero: Terror | Plataforma: HBO Max

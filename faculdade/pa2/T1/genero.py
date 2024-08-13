@@ -1,17 +1,18 @@
-from filme import Filme
-
 class Genero:
-    def __init__(self, nome, identificador, arquivo='filmes.txt'):
+    def __init__(self, id, nome):
+        self.id = id
         self.nome = nome
-        self.identificador = identificador
-        self.arquivo = arquivo
-
-    def adicionar_filme(self, Filme):
-        with open(self.arquivo, 'a') as f:
-            f.write(f'{Filme}')
+    
+        string = str(f"{self.nome}\n")
+        arquivo = open('T1/genero.txt', 'a')
+        arquivo.write(string)
+        arquivo.close
 
     def get_nome(self):
         return self.nome
     
     def get_identificador(self):
         return self.identificador
+
+    def __str__(self):
+        return self.nome
